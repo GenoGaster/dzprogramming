@@ -1,5 +1,5 @@
 using System;
-namespace AngryBirds;
+namespace AngryBird;
 
 public static class AngryBirdsTask
 {
