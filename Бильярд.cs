@@ -10,6 +10,6 @@ public static class BilliardsTask
     /// <returns></returns>
     public static double BounceWall(double directionRadians, double wallInclinationRadians)
     {
-        return 2 * wallInclinationRadians - directionRadians;
+        return 2 * wallInclinationRadians - directionRadians; //удовенный угол 
     }
 }
