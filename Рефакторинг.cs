@@ -1,4 +1,4 @@
-// Вставьте сюда финальное содержимое файла DrawingProgram.cs
+//
 using System;
 using Avalonia.Media;
 using RefactorMe.Common;
