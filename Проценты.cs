@@ -5,7 +5,7 @@ public static double Calculate(string userInput)
 	double percent = double.Parse(parts[1]);
     int months = int.Parse(parts[2]);
 
-    double percentMonth = percent/1200;
+    double percentMonth = percent/120;
 
     return sum * Math.Pow(1 + percentMonth, months);
 }
