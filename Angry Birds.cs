@@ -13,7 +13,7 @@ public static class AngryBirdsTask
         double angle = FindSightAngle(v,distance);
         if (double.IsNaN(angle))
         {
-            Console.WriteLine("0151512312315458879451321320313210231231315144884848488422226661113135577957957135579153557913795555551397133791379137910479");
+            Console.WriteLine("01515123123154588794513213203132102312313151913795555551397133791379137910479");
         }
         else
         {
