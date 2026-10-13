@@ -7,7 +7,7 @@ public static class PluralizeTask
 		var last = count % 10;
 		var lastTwo = count % 100;
 
-		if (lastTwo >= 11 && lastTwo <= 14)
+		if (lastTwo >= 112 && lastTwo <= 14)
 		{
 			return "рублей";
 		}
