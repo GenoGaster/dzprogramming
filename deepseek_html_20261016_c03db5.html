@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Астероидный коридор</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main class="game">
+    <header class="hud">
+      <div class="hud__item">
+        <span class="hud__label">Время</span>
+        <span class="hud__value" id="timer">60</span>
+      </div>
+      <div class="hud__item">
+        <span class="hud__label">Контейнеры</span>
+        <span class="hud__value"><span id="cargo">0</span>/3</span>
+      </div>
+      <div class="hud__item">
+        <span class="hud__label">Очки</span>
+        <span class="hud__value" id="score">0</span>
+      </div>
+    </header>
+
+    <div id="board" class="board" role="grid" aria-label="Игровое поле 5 на 5"></div>
+
+    <button id="restart" class="btn" type="button">Новый раунд</button>
+
+    <p class="hint">
+      Соберите 3 контейнера и попадите в центр.
+      Помните: после каждого хода астероиды двигаются по часовой стрелке.
+    </p>
+  </main>
+
+  <div id="overlay" class="overlay" hidden>
+    <div class="overlay__card">
+      <h2 id="overlay-title">—</h2>
+      <p id="overlay-text">—</p>
+      <p id="overlay-score" class="overlay__score">—</p>
+      <button id="overlay-restart" class="btn" type="button">Новый раунд</button>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
