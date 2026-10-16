@@ -18,7 +18,7 @@ def prepare_benchmark(df: pd.DataFrame) -> pd.DataFrame:
         }
     )
     result["total_tokens"] = (
-        result["prompt_tokens"] + result["completion_tokens"]
+        result["pro_tokens"] + result["completion_tokens"]
     )
     result = result.drop(
         columns=["prompt_tokens", "completion_tokens"]
