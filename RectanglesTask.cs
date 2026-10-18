@@ -4,7 +4,7 @@ namespace Rectangles;
 
 public static class RectanglesTask
 {
-    // Пересекаются ли два прямоугольника (пересечение только по границе также считается пересечением)
+    // Пересекаются ли два прямоугольник
     public static bool AreIntersected(Rectangle r1, Rectangle r2)
     {
         // так можно обратиться к координатам левого верхнего угла первого прямоугольника: r1.Left, r1.Top
