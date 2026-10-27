@@ -5,7 +5,6 @@ import pandas as pd
 def prepare_benchmark(df: pd.DataFrame) -> pd.DataFrame:
     result = df.copy()
 
-
     result["tokens_per_second"] = np.round(
         (result["input_tokens"] + result["output_tokens"])
         / (result["latency_ms"] / 100),
