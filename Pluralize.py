@@ -1,6 +1,6 @@
 namespace Pluralize;
 
-public static class PluralizeTask
+public static class
 {
 	public static string PluralizeRubles(int count)
 	{
