@@ -5,7 +5,7 @@ public static class AngryBirdsTask
 {
     static void Main()
     {   
-        Console.Write("Введите скорость снаряда (м/с): ");
+        Console.Write("Введите скорость снаряда ");
         double v = double.Parse(Console.ReadLine();
         Console.Write("Введите расстояние до цели (м): ");
         double distance = double.Parse(Console.ReadLine()!);
